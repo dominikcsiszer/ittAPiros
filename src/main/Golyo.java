@@ -72,8 +72,10 @@ public class Golyo implements ActionListener{
         golyo = (int)(Math.random() * 3) +1;
         System.out.println(golyo);
         for (int i = 0; i < panel2.getComponentCount(); i++) {
-            panel2.getComponent(i).setText(String.valueOf(i));
             panel2.getComponent(i).setEnabled(true);
         }
+        gomb1.setText("1");
+        gomb2.setText("2");
+        gomb3.setText("3");
     }
 }
